@@ -45,6 +45,8 @@
   font-size: 4rem;
 }
 
+
+
 .title,
 .description {
   text-align: center;
@@ -54,6 +56,19 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.gameName {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  display: flex;
+}
+
+.gameColor {
+  margin: 10;
+  line-height: 1.55;
+  font-size: 5rem;
 }
 
 .code {
@@ -66,12 +81,22 @@
 }
 
 .grid {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0px 0px;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+
 }
+
+.button {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 10px; 
+}
+
+
 
 .card {
   margin: 1rem;
