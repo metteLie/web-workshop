@@ -8,6 +8,7 @@ const Navbar = () => {
             <img src= "/dice.png" alt="site logo" width={80} height={80} />
             </div> 
             <Link href="/">Hjem</Link>
+            <Link href="/color">Color Game</Link>
 
             
         </nav>

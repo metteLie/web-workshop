@@ -1,7 +1,7 @@
 const Footer = () => {
     return(
         <footer>
-            Copyright 2021 Sjekkliste
+            Copyright 2022  Eik | web workshop
         </footer>
     );
 }
